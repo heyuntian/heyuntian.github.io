@@ -3,16 +3,28 @@ layout: homepage
 description: ""
 ---
 
+<h2>Recent News</h2>
+
+<ul>
+    <li> [03/16/19] I will join the <a href="https://cse.osu.edu/">Department of Computer Science and Engineering</a> at the Ohio State University in August 2019 and start my Ph.D. under the supervision of <a href="http://web.cse.ohio-state.edu/~parthasarathy.2/">Prof. Srinivasan Parthasarathy</a>. </li>
+    <li> [01/15/19] Our paper “Efficient and Effective Algorithms for Clustering Uncertain Graphs” is accepted by VLDB 2019. </li>
+    <li> [11/20/18] I win the National Scholarship for Graduate Students again. </li>
+</ul>
+
+<hr/>
+
+<h2>Recent Blogs</h2>
+
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
+        <h3 class="post-title">
             {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
         </h3>
+        {% if post.subtitle %}
+        <h4 class="post-subtitle">
+            {{ post.subtitle }}
+        </h4>
         {% endif %}
         <div class="post-content-preview">
             {{ post.content | strip_html | truncate:200 }}
