@@ -5,7 +5,7 @@ subtitle:    "\"My first blog\""
 date:       2019-04-27
 author:     Yuntian
 header-img: img/post-bg-2015.jpg
-catalog: true
+catalog: false
 tags:
     - General
 ---
