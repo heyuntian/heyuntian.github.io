@@ -11,7 +11,7 @@ github_repo: "https://github.com/heyuntian/heyuntian.github.io.git" # you code r
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Ph.D. student at OSU. <a href="{{ site.baseurl }}/file/yuntian_cv.pdf">[CV]</a>"
+sidebar-about-description: "Ph.D. student at OSU."
 sidebar-avatar: /img/about-yuntian-photo.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
